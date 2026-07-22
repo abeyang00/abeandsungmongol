@@ -201,20 +201,50 @@ const tripData = {
       id: "day4",
       day: "D4",
       date: "08.17 월",
-      title: "세부 계획 입력 대기",
-      summary: "마지막 풀데이 일정과 숙소 복귀 동선을 정리합니다.",
+      title: "테를지 → 칭기즈 칸 마동상 → 공항",
+      summary: "테를지에서 액티비티와 트래킹을 즐긴 뒤 칭기즈 칸 마동상을 방문하고 공항으로 이동.",
       stops: [
         {
-          name: "Mongolia",
-          detail: "자료 대기",
-          mapQuery: "Mongolia",
+          name: "테를지 국립공원",
+          detail: "09:00 액티비티 및 트래킹",
+          mapQuery: "Gorkhi Terelj National Park Mongolia",
+        },
+        {
+          name: "칭기즈 칸 마동상",
+          detail: "13:00 방문",
+          mapQuery: "Chinggis Khaan Statue Complex Mongolia",
+        },
+        {
+          name: "칭기즈 칸 국제공항",
+          detail: "15:00 공항 샌딩",
+          mapQuery: "Chinggis Khaan International Airport Mongolia",
         },
       ],
       schedule: [
         {
-          time: "종일",
-          title: "일정 자료 반영 예정",
-          text: "방문지별 예상 체류 시간과 이동 수단을 추가합니다.",
+          time: "08:00",
+          title: "조식",
+          text: "조식: 숙소 제공.",
+        },
+        {
+          time: "09:00",
+          title: "테를지 액티비티 및 트래킹",
+          text: "테를지 국립공원에서 오전 액티비티와 트래킹.",
+        },
+        {
+          time: "12:00",
+          title: "중식",
+          text: "중식: 현지식당.",
+        },
+        {
+          time: "13:00",
+          title: "칭기즈 칸 마동상",
+          text: "칭기즈 칸 기마상 단지 방문.",
+        },
+        {
+          time: "15:00",
+          title: "공항 샌딩",
+          text: "칭기즈 칸 국제공항으로 이동.",
         },
       ],
     },
@@ -530,3 +560,4 @@ function init() {
 }
 
 init();
+
