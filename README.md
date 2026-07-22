@@ -1,4 +1,4 @@
-# abeandsungmongol
+# Abe and Sung Mongol Trip 26'
 
 몽골 여행 일정 공유용 GitHub Pages 정적 사이트입니다.
 
@@ -16,10 +16,10 @@
 
 ## GitHub Pages 배포
 
-1. GitHub에서 `abeandsungmongol` 저장소를 만듭니다.
+1. GitHub에서 `mongol2026` 저장소를 만듭니다.
 2. 이 폴더의 파일을 저장소 루트에 업로드하거나 push합니다.
 3. 저장소 `Settings` -> `Pages`에서 `Deploy from a branch`를 선택합니다.
 4. Branch는 `main`, folder는 `/root`로 설정합니다.
-5. 배포 주소는 보통 `https://<github-id>.github.io/abeandsungmongol/` 형태입니다.
+5. 배포 주소는 `https://abeyang00.github.io/mongol2026/` 형태입니다.
 
 루트 주소 `https://<github-id>.github.io/`를 원하면 저장소 이름을 `<github-id>.github.io`로 만들어야 합니다.
